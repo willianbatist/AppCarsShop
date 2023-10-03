@@ -6,12 +6,13 @@
  */
 
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+// import { Text } from 'react-native';
+import { StyledView, StyledText } from './globalStyled';
 
 export default function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <Text>Hello Word</Text>
-    </SafeAreaView>
+    <StyledView>
+      <StyledText>Hello Word, Blzz</StyledText>
+    </StyledView>
   );
 }
