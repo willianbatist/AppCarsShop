@@ -19,7 +19,7 @@ export default function App(): JSX.Element {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ headerShown: false }}
+          options={{ title: 'Automóveis', headerTitleAlign: 'center' }}
         />
       </Stack.Navigator>
     </NavigationContainer>
