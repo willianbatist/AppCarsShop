@@ -6,3 +6,5 @@ export const StyledView = styled.SafeAreaView``;
 export const StyledText = styled.Text`
   color: red;
 `;
+
+export const StyledFlatList = styled.FlatList``;
