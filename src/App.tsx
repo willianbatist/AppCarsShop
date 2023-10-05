@@ -18,9 +18,10 @@ export default function App(): JSX.Element {
       <Stack.Navigator>
         <Stack.Screen
           name="Home"
-          component={HomeScreen}
           options={{ title: 'Automóveis', headerTitleAlign: 'center' }}
-        />
+        >
+          {props => <HomeScreen {...props} />}
+        </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
