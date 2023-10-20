@@ -12,7 +12,8 @@ export default function HomeScreen({ navigation }: any): JSX.Element {
     <StyledView>
       <StyledFlatList
         data={cars}
-
+        renderItem={renderCarCard}
+        keyExtractor={(item: ICar) => item.id}
       />
     </StyledView>
   );
