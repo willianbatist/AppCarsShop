@@ -14,10 +14,7 @@ const renegade = require('../assets/jeep_renegade.jpg');
 const duster = require('../assets/renault_duster.jpg');
 const logan = require('../assets/renault_logan.jpg');
 const sandero = require('../assets/renault_sandero.jpg');
-const corolla = require('../assets/toyota_corolla.jpg');
-const hilux = require('../assets/toyota_hilux.jpg');
-const gol = require('../assets/volkswagen_gol.jpg');
-const voyage = require('../assets/volkswagen_voyage.jpg');
+
 
 export const cars = [
   {
