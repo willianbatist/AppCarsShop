@@ -6,7 +6,7 @@ import { ICar } from '../../types';
 
 export default function HomeScreen({ navigation }: any): JSX.Element {
   const renderCarCard = ({ item }: any) => {
-    return ;
+    return <CarCard item={item} navigation={navigation} />;
   };
   return (
     <StyledView>
