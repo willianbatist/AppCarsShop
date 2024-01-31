@@ -5,7 +5,8 @@ export interface ICar {
   model: string;
   description: string;
   category: string;
-
+  year: number;
+  price: string;
   transmission: string;
   characteristics: string[];
 }
