@@ -22,7 +22,8 @@ export default function CarCard({ item, navigation }: ItemProps): JSX.Element {
         <StyledTitle>{`${item.brand} ${item.model}`}</StyledTitle>
         <StyledText>{item.description}</StyledText>
         <StyledViewText>
-
+          <StyledText>{item.price}</StyledText>
+          <StyledText>{item.year}</StyledText>
         </StyledViewText>
       </StyledView>
     </TouchableOpacity>
