@@ -1,7 +1,4 @@
-const cruze = require('../assets/chevrolet_cruze.jpg');
-const onix = require('../assets/chevrolet_onix.jpg');
-const prisma = require('../assets/chevrolet_prisma.jpg');
-const argo = require('../assets/fiat_argo.jpg');
+
 const mobi = require('../assets/fiat_mobi.jpg');
 const pulse = require('../assets/fiat_pulse.jpg');
 const siena = require('../assets/fiat_siena.jpg');
