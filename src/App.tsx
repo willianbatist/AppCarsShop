@@ -22,7 +22,7 @@ export default function App(): JSX.Element {
         >
           {props => <HomeScreen {...props} />}
         </Stack.Screen>
-      </Stack.Navigator>
+
     </NavigationContainer>
   );
 }
