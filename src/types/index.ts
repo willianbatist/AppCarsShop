@@ -7,6 +7,5 @@ export interface ICar {
   category: string;
   year: number;
   price: string;
-  transmission: string;
-  characteristics: string[];
+
 }
