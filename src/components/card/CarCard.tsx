@@ -1,6 +1,7 @@
 import React from 'react';
 import {
-
+  StyledView,
+  StyledTitle,
   ImageCar,
   StyledText,
   StyledViewText,
